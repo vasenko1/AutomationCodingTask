@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.AutomationTests.Base", "Amazon.AutomationTests\Amazon.AutomationTests.Base.csproj", "{F13F772C-543D-486F-A624-B9CE4B5FAEB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.AutomationTests.Steps", "Amazon.AutomationTests.Steps\Amazon.AutomationTests.Steps.csproj", "{E41D12BD-0750-4F57-B56D-5DAA1FB2A1EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F13F772C-543D-486F-A624-B9CE4B5FAEB7} = {F13F772C-543D-486F-A624-B9CE4B5FAEB7}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.AutomationTests.Tests", "Amazon.AutomationTests.Tests\Amazon.AutomationTests.Tests.csproj", "{FF718014-B6AF-4B42-84CC-DF0A084B09D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13F772C-543D-486F-A624-B9CE4B5FAEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13F772C-543D-486F-A624-B9CE4B5FAEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13F772C-543D-486F-A624-B9CE4B5FAEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13F772C-543D-486F-A624-B9CE4B5FAEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41D12BD-0750-4F57-B56D-5DAA1FB2A1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41D12BD-0750-4F57-B56D-5DAA1FB2A1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41D12BD-0750-4F57-B56D-5DAA1FB2A1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41D12BD-0750-4F57-B56D-5DAA1FB2A1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF718014-B6AF-4B42-84CC-DF0A084B09D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF718014-B6AF-4B42-84CC-DF0A084B09D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF718014-B6AF-4B42-84CC-DF0A084B09D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF718014-B6AF-4B42-84CC-DF0A084B09D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26834FDA-6B2C-408A-ACBD-7D39849E1405}
+	EndGlobalSection
+EndGlobal
